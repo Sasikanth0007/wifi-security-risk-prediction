@@ -1,0 +1,347 @@
+{
+  "selected_model": "Random_Forest",
+  "is_synthetic_training": false,
+  "dataset_name": "UAVIDS-2025",
+  "dataset_doi": "10.5281/zenodo.15336998",
+  "wireless_standard": "IEEE 802.11ac",
+  "trained_timestamp": "2026-10-18 05:30:24 UTC",
+  "train_samples_count": 20000,
+  "test_samples_count": 5000,
+  "features": [
+    "FlowDuration/s",
+    "TxPackets",
+    "RxPackets",
+    "LostPackets",
+    "TxBytes",
+    "RxBytes",
+    "TxPacketRate/s",
+    "RxPacketRate/s",
+    "TxByteRate/s",
+    "RxByteRate/s",
+    "MeanDelay/s",
+    "MeanJitter/s",
+    "Throughput/Kbps",
+    "MeanPacketSize",
+    "PacketDropRate",
+    "AverageHopCount"
+  ],
+  "classes": [
+    "Blackhole Attack",
+    "Flooding Attack",
+    "Normal Traffic",
+    "Sybil Attack",
+    "Wormhole Attack"
+  ],
+  "feature_metadata": {
+    "FlowDuration/s": {
+      "min": 7.62e-05,
+      "max": 10438.8,
+      "mean": 696.2114798670561,
+      "std": 779.9249756538353,
+      "median": 228.005,
+      "q25": 124.36675,
+      "q75": 1415.775
+    },
+    "TxPackets": {
+      "min": 1.0,
+      "max": 187632.0,
+      "mean": 506.60925,
+      "std": 2296.5493461733863,
+      "median": 51.0,
+      "q25": 14.0,
+      "q75": 284.25
+    },
+    "RxPackets": {
+      "min": 0.0,
+      "max": 43317.0,
+      "mean": 437.7585,
+      "std": 1406.6429360698578,
+      "median": 23.0,
+      "q25": 5.0,
+      "q75": 195.0
+    },
+    "LostPackets": {
+      "min": 0.0,
+      "max": 178790.0,
+      "mean": 68.2847,
+      "std": 1587.4843342759289,
+      "median": 12.0,
+      "q25": 4.0,
+      "q75": 50.0
+    },
+    "TxBytes": {
+      "min": 30.0,
+      "max": 9569118.0,
+      "mean": 37175.28205,
+      "std": 140946.0620483153,
+      "median": 2934.0,
+      "q25": 943.5,
+      "q75": 18778.5
+    },
+    "RxBytes": {
+      "min": 0.0,
+      "max": 2208843.0,
+      "mean": 32828.72115,
+      "std": 105523.36395448358,
+      "median": 1368.0,
+      "q25": 366.0,
+      "q75": 14060.0
+    },
+    "TxPacketRate/s": {
+      "min": 0.0012252,
+      "max": 33116.6,
+      "mean": 4.628972012386999,
+      "std": 299.3471421680501,
+      "median": 0.20510899999999999,
+      "q25": 0.04545365,
+      "q75": 1.43025
+    },
+    "RxPacketRate/s": {
+      "min": 0.0,
+      "max": 13115.8,
+      "mean": 2.2705709852828004,
+      "std": 121.86187263944018,
+      "median": 0.06779805,
+      "q25": 0.017203274999999997,
+      "q75": 1.2522725000000001
+    },
+    "TxByteRate/s": {
+      "min": 0.047783,
+      "max": 2516860.0,
+      "mean": 346.179280568915,
+      "std": 22743.95358952534,
+      "median": 13.598600000000001,
+      "q25": 2.9834075,
+      "q75": 108.685
+    },
+    "RxByteRate/s": {
+      "min": 0.0,
+      "max": 996800.0,
+      "mean": 171.0071501284,
+      "std": 9261.062407304113,
+      "median": 3.9859,
+      "q25": 1.07931,
+      "q75": 95.1356
+    },
+    "MeanDelay/s": {
+      "min": 0.0,
+      "max": 10.1685,
+      "mean": 0.2069226381974,
+      "std": 0.4481887323421877,
+      "median": 0.058543349999999994,
+      "q25": 0.01899005,
+      "q75": 0.197357
+    },
+    "MeanJitter/s": {
+      "min": 0.0,
+      "max": 6.04253,
+      "mean": 0.139744559955875,
+      "std": 0.2966799338960976,
+      "median": 0.04312605,
+      "q25": 0.007237165,
+      "q75": 0.13973525
+    },
+    "Throughput/Kbps": {
+      "min": 0.0,
+      "max": 7974.4,
+      "mean": 1.36805714908115,
+      "std": 74.08849033976496,
+      "median": 0.031887200000000004,
+      "q25": 0.0086344925,
+      "q75": 0.76108475
+    },
+    "MeanPacketSize": {
+      "min": 30.0,
+      "max": 76.0,
+      "mean": 68.18245,
+      "std": 13.817608632209689,
+      "median": 76.0,
+      "q25": 76.0,
+      "q75": 76.0
+    },
+    "PacketDropRate": {
+      "min": 0.0,
+      "max": 1.25,
+      "mean": 0.3705969080832,
+      "std": 0.3092377912621917,
+      "median": 0.291667,
+      "q25": 0.0928623,
+      "q75": 0.645161
+    },
+    "AverageHopCount": {
+      "min": 0.0,
+      "max": 58.0,
+      "mean": 0.27066612113875,
+      "std": 0.8079145947799927,
+      "median": 0.0288066,
+      "q25": 0.0,
+      "q75": 0.192308
+    }
+  },
+  "results": {
+    "Logistic_Regression": {
+      "accuracy": 0.7996,
+      "precision_macro": 0.8129537595313326,
+      "precision_weighted": 0.810147052794057,
+      "recall_macro": 0.7981345191512352,
+      "recall_weighted": 0.7996,
+      "f1_macro": 0.8022104380394867,
+      "f1_weighted": 0.80148478211887,
+      "confusion_matrix": [
+        [
+          755,
+          2,
+          0,
+          0,
+          312
+        ],
+        [
+          11,
+          611,
+          0,
+          108,
+          77
+        ],
+        [
+          17,
+          4,
+          971,
+          38,
+          41
+        ],
+        [
+          2,
+          85,
+          15,
+          829,
+          54
+        ],
+        [
+          115,
+          8,
+          96,
+          17,
+          832
+        ]
+      ],
+      "per_class": {
+        "Blackhole Attack": {
+          "precision": 0.8388888888888889,
+          "recall": 0.706267539756782,
+          "f1_score": 0.7668867445403759,
+          "support": 1069
+        },
+        "Flooding Attack": {
+          "precision": 0.8605633802816901,
+          "recall": 0.7571251548946716,
+          "f1_score": 0.8055372445616348,
+          "support": 807
+        },
+        "Normal Traffic": {
+          "precision": 0.8974121996303143,
+          "recall": 0.9066293183940243,
+          "f1_score": 0.9019972131908964,
+          "support": 1071
+        },
+        "Sybil Attack": {
+          "precision": 0.8356854838709677,
+          "recall": 0.8416243654822335,
+          "f1_score": 0.8386444107233182,
+          "support": 985
+        },
+        "Wormhole Attack": {
+          "precision": 0.6322188449848024,
+          "recall": 0.7790262172284644,
+          "f1_score": 0.697986577181208,
+          "support": 1068
+        }
+      },
+      "supports_probabilities": true,
+      "cv_f1_weighted_mean": 0.8034160438279262,
+      "cv_f1_weighted_std": 0.005290661487245061,
+      "fit_time_seconds": 3.983
+    },
+    "Random_Forest": {
+      "accuracy": 0.9428,
+      "precision_macro": 0.9470410973516861,
+      "precision_weighted": 0.9451648528934886,
+      "recall_macro": 0.9448189618744716,
+      "recall_weighted": 0.9428,
+      "f1_macro": 0.9447952116050121,
+      "f1_weighted": 0.9427699822488171,
+      "confusion_matrix": [
+        [
+          901,
+          1,
+          0,
+          0,
+          167
+        ],
+        [
+          0,
+          783,
+          1,
+          19,
+          4
+        ],
+        [
+          1,
+          0,
+          1059,
+          0,
+          11
+        ],
+        [
+          0,
+          13,
+          0,
+          972,
+          0
+        ],
+        [
+          43,
+          8,
+          18,
+          0,
+          999
+        ]
+      ],
+      "per_class": {
+        "Blackhole Attack": {
+          "precision": 0.9534391534391534,
+          "recall": 0.842843779232928,
+          "f1_score": 0.8947368421052632,
+          "support": 1069
+        },
+        "Flooding Attack": {
+          "precision": 0.9726708074534162,
+          "recall": 0.9702602230483272,
+          "f1_score": 0.9714640198511166,
+          "support": 807
+        },
+        "Normal Traffic": {
+          "precision": 0.9823747680890538,
+          "recall": 0.988795518207283,
+          "f1_score": 0.9855746859004187,
+          "support": 1071
+        },
+        "Sybil Attack": {
+          "precision": 0.9808274470232089,
+          "recall": 0.9868020304568528,
+          "f1_score": 0.9838056680161943,
+          "support": 985
+        },
+        "Wormhole Attack": {
+          "precision": 0.8458933107535986,
+          "recall": 0.9353932584269663,
+          "f1_score": 0.8883948421520675,
+          "support": 1068
+        }
+      },
+      "supports_probabilities": true,
+      "cv_f1_weighted_mean": 0.941752177413153,
+      "cv_f1_weighted_std": 0.005769986835208056,
+      "fit_time_seconds": 3.97
+    }
+  }
+}

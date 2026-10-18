@@ -1,0 +1,51 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.*
+
+# Testing & coverage
+.pytest_cache/
+.pytest-tmp/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+tmp/
+temp/
+
+# Research dataset: download from its source; do not publish a local copy
+data/UAVIDS-2025.csv
+
+# Reproducible generated model artifacts (created by src.train)
+models/*.joblib
